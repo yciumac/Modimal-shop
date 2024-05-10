@@ -1,0 +1,17 @@
+.footer {
+	margin-top: 88px;
+	padding: 24px 0;
+	background-color: #000;
+
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 180%;
+	text-transform: capitalize;
+	color: var(--neutral-graycbcbcb);
+
+	@include mobile {
+		margin-top: 24px;
+		padding: 8px 0;
+	}
+}

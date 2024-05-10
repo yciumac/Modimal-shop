@@ -1,0 +1,55 @@
+.hero {
+    height: 600px;
+    padding-bottom: 103px;
+
+    background-color: #999;
+    background-image: url('./../../img/hero/hero.jpg');
+    background-position: 30% center; /* x y */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    @include mediaBg() {
+        background-image: url('./../../img/hero/hero@2x.jpg');
+    }
+
+    @include mobile {
+        height: 551px;
+        padding-bottom: 18px;
+    }
+
+    .container {
+        height: 100%;
+    }
+}
+.hero__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 27px;
+
+    @include mobile {
+        gap: 32px;
+    }
+}
+.hero__title {
+    max-width: 494px;
+
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: var(--black);
+
+    @include tablet {
+        max-width: 250px;
+    }
+
+    @include mobile {
+        max-width: 168px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,1 @@
+Website for an online store using a layout from Figma, CSS preprocessor SCSS, use of mixins and variables. Media queries and adaptive layout. Markup based on CSS Grid and Flexbox. Swiper slider. Mobile navigation. Accordion.

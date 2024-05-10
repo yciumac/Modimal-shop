@@ -1,0 +1,36 @@
+.color {
+    width: 24px;
+    height: 24px;
+    background-color: grey;
+    border-radius: 50%;
+
+    @include tablet {
+        width: 16px;
+        height: 16px;
+    }
+}
+.color--black {
+    background-color: var(--black);
+}
+.color--blue {
+    background-color: #7dc3eb;
+}
+.color--green {
+    background-color: var(--primary);
+}
+.color--olive {
+	background-color: #909225;
+}
+
+.color--navy {
+	background-color: #19418e;
+}
+
+.color--pink {
+	background-color: #d0a5ea;
+}
+
+.color--white {
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+}
